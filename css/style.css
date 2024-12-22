@@ -19,7 +19,7 @@
 }
 
 html {
-  font-size: 65%;
+  font-size: 50%;
   background: var(--white-color);
 }
 
@@ -77,7 +77,7 @@ header.active {
 }
 
 nav a {
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: var(--white-color);
   font-weight: 500;
   margin-left: 3.5rem;
@@ -299,7 +299,7 @@ section.active {
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 5rem;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .resume-box h2 {
@@ -471,7 +471,7 @@ section.active {
 }
 
 .resume-item .certificate {
-  width: 325px;
+  width: 200px;
   justify-self: center;
 }
 
@@ -646,7 +646,7 @@ section.active {
 
 .portfolio-box .portfolio-carousel {
   width: 100%;
-  height: 30rem;
+  height: 45rem;
   border-radius: 1rem;
   overflow: hidden;
 }
@@ -674,7 +674,7 @@ section.active {
 
 .portfolio-box .navigation {
   text-align: right;
-  margin-top: 3rem;
+  margin-top: 2rem;
 }
 
 .portfolio-box .navigation button {
@@ -703,6 +703,7 @@ section.active {
   display: grid;
   grid-template-columns: 1fr 1.3fr;
   gap: 3rem;
+  margin-top: 20px;
 }
 
 .contact-container .contact-box:first-child {
@@ -772,7 +773,7 @@ section.active {
 
 .contact-box .field-box textarea {
   grid-column: 1 / -1;
-  height: 22rem;
+  height: 26rem;
   resize: none;
 }
 
@@ -925,5 +926,9 @@ section.active {
     height: 45rem;
     border-radius: 1rem;
     overflow: hidden;
+  }
+
+  .contact-box .field-box textarea {
+    height: 20rem;
   }
 }
